@@ -31,7 +31,8 @@ def isHappy(n):
 > $ docker exec new-container git --version
 > ```
 >- 설치된 git의 버전을 출력하는 command.<br/> 
-> ![image]([https://url/image.png](https://github.com/chlrudtlr/SWE_2021_41_2024_2_week_6/blob/main/week5_1.png))
+>- Output<br/> 
+> ![image](https://github.com/chlrudtlr/SWE_2021_41_2024_2_week_6/blob/main/week5_1.png)
 
 > ```bash
 > $ docker exec new-container python3 --version
