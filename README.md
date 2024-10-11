@@ -17,7 +17,11 @@ def isHappy(n):
     else:
         return isHappy(sum)
 ```
-- Description of my code
+- 입력된 숫자의 각 자릿수의 제곱의 합을 반복적으로 계산하면서, 그 값이 최종적으로 1이 되는지(Happy number인지)를 확인하는 함수
+- While문을 이용해 숫자의 각 자릿수(digit)를 구하고, 그 자릿수의 제곱을 더하여 sum에 저장.
+- 반복문이 끝난 후에 sum이 1이면 True를 반환.
+- sum이 1보다 크고 10보다 작은 경우는 1이 아닌 한자리 수에서 계산이 완료된 것이므로 False를 반환
+- 그 외의 경우(sum이 두자리 수인 경우)는 계산이 완료되지 않았으므로 재귀적으로 계산 반복
 ---
 ### Week 5 Assignment<br/> 
 
